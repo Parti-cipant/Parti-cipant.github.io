@@ -30,7 +30,7 @@ function bot_ui_ini() {
         }).then(function () {
             botui.message.add({
                 delay: 1100,
-                content: "一个可爱的蓝孩子~"
+                content: "一个没有学习天赋的高中生"
             }).then(function () {
                 botui.action.button({
                     delay: 1600,
@@ -65,32 +65,32 @@ function bot_ui_ini() {
         secondpart = function () {
             botui.message.add({
                 delay: 1500,
-                content: "目前就读于上海财经大学"
+                content: "目前就读于四平市第一高级中学"
             }).then(function () {
                 botui.message.add({
                     delay: 1500,
-                    content: "向往技术却误入商科，但后来喜欢上了经济学…"
+                    content: "初中成为oier，十分颓废的oier"
                 }).then(function () {
                     botui.message.add({
                         delay: 1200,
-                        content: "因为数据分析也需要Coder嘛"
+                        content: "上了高中，决定努力攻oi争取拿省一"
                     }).then(function () {
                         botui.message.add({
                             delay: 1500,
-                            content: "主攻 R 语言和 Python，略懂 STATA，偶尔也折腾 HTML/CSS/JavaScript/PHP"
+                            content: "因文化课原因高一被迫无法参加当年的NOIP(当年叫CSP，但本质上没有区别"
                         }).then(function () {
                             botui.message.add({
                                 delay: 1500,
-                                content: "研究的方向，是经济/金融方向的数据分析（data science）以及机器学习（machine learning）"
+                                content: "文化课原因解决后，强基计划发布，信息技术未被该计划提名，被迫AFO"
                             }).then(function () {
                                 botui.message.add({
                                     delay: 1800,
-                                    content: "喜欢画画，希望有一天能够被称为画师"
+                                    content: "小学学过日语，但基本忘没了，现在也就是扔到日本大街上死不了的程度"
                                 }).then(function () {
                                     botui.action.button({
                                         delay: 1100,
                                         action: [{
-                                            text: "为什么叫Mashiro呢？ 🤔",
+                                            text: "为什么叫Parti-呢？🤔",
                                             value: "why-mashiro"
                                         }]
                                     }).then(function (a) {
@@ -106,12 +106,12 @@ function bot_ui_ini() {
         thirdpart = function () {
             botui.message.add({
                 delay: 1E3,
-                content: "Mashiro以及站名都来自一部动画，因为和主角有一样的爱好~ 如果有兴趣可以找找首页上的视频~"
+                content: "Parti-是Participant的缩写，因为我觉得这是我，甚至是大部分当代中国学生的本质"
             }).then(function () {
                 botui.action.button({
                     delay: 1500,
                     action: [{
-                        text: "为什么是白猫呢？ 🤔",
+                        text: "有什么爱好呢？🤔",
                         value: "why-cat"
                     }]
                 }).then(function (a) {
@@ -122,16 +122,16 @@ function bot_ui_ini() {
         fourthpart = function () {
             botui.message.add({
                 delay: 1E3,
-                content: "因为对GitHub有种执念… "
+                content: "喜欢ACGN，打篮球(虽然很菜)，慧音老师"
             }).then(function () {
                 botui.message.add({
                     delay: 1100,
-                    content: "而且我真的是猫控！"
+                    content: "还喜欢研究电脑硬，软件"
                 }).then(function () {
                     botui.action.button({
                         delay: 1500,
                         action: [{
-                            text: "域名有什么含意吗？(ง •_•)ง",
+                            text: "将来有什么打算吗？(ง •_•)ง",
                             value: "why-domain"
                         }]
                     }).then(function (a) {
@@ -143,11 +143,11 @@ function bot_ui_ini() {
         fifthpart = function () {
             botui.message.add({
                 delay: 1E3,
-                content: "emmmm，看备案信息你就知道了=.= 本来想要zheng.xin的，但50万真买不起。。"
+                content: "真没啥打算，但想向人工智能这方面发展"
             }).then(function () {
                 botui.message.add({
                     delay: 1600,
-                    content: "那么，仔细看看我的博客吧？ ^_^"
+                    content: "那么，随便看看我的博客吧？ ^_^"
                 })
             })
         } 
