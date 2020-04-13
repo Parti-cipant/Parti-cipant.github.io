@@ -80,8 +80,8 @@ theme: Sakura
 deploy:
   type: git
   repo: 
-    #github: git@github.com:Parti-cipant/Parti-cipant.github.io.git
-    github: https://github.com/Parti-cipant/Parti-cipant.github.io.git
+    github: git@github.com:Parti-cipant/Parti-cipant.github.io.git
+    #github: https://github.com/Parti-cipant/Parti-cipant.github.io.git
     #coding: https://git.coding.net/hojun/hojun.git
   branch: master
 

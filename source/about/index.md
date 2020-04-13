@@ -4,7 +4,7 @@ date: 2018-12-12 22:14:36
 keywords: 关于
 description: 
 comments: false
-photos: https://cdn.jsdelivr.net/gh/honjun/cdn@1.4/img/banner/about.jpg
+photos: https://cdn.jsdelivr.net/gh/Parti-cipant/cdn@2.1/Scene/title_%E6%98%9F%E8%89%B2%E8%8A%B1%E7%81%AB%E3%80%8279798883_p0.jpg
 ---
 {% raw %}
 <!-- 因为vue和botui更新导至bug,现将对话移至js下的botui中配置 -->

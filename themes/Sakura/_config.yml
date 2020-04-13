@@ -1,6 +1,6 @@
 # site name
-prefixName: 平凡的高中生
-siteName: Parti-
+prefixName: Parti-
+siteName: 一个平凡的高中生
 # favicon and site master avatar
 favicon: /images/favicon.ico
 avatar: /19774142.jpg
@@ -12,8 +12,7 @@ pjax: 1
 mathjax: 0
 
 notice: ようこそ，僕の世界へ。
-lazyloadImg: https://cdn.jsdelivr.net/gh/Parti-cipant/cdn@1.9/img/loader/orange.progress-bar-stripe-loader.svg
-
+lazyloadImg: https://img.moegirl.org/common/c/cd/1006211942780b1920529f2816.gif
 menus:
   首页: { path: /, fa: fa-fort-awesome faa-shake }
   归档: { path: /archives, fa: fa-archive faa-shake, submenus: { 
@@ -47,9 +46,9 @@ homePageSortType: -1
 homeArticleShown: 10
 # 背景图片 更好的修改
 bg:
+  #- https://cdn.jsdelivr.net/gh/Parti-cipant/cdn@2.1/Scene/title_%E6%AC%84%E5%B9%B270316649_p0.png
+  #- https://cdn.jsdelivr.net/gh/Parti-cipant/cdn@2.1/Scene/%5Bみがた%E3%80%80せいじゅ%5D62622571.png
   - https://cdn.jsdelivr.net/gh/Parti-cipant/testcdn/M.jpg
-  #- https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(2).jpg.webp
-  #- https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(3).jpg.webp
   #- https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(4).jpg.webp
   #- https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(5).jpg.webp
   #- https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(6).jpg.webp

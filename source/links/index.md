@@ -1,11 +1,11 @@
 ---
 layout: links
 title: links
-date: 2018-12-19 23:11:06
+date: 2020-04-14 23:11:06
 keywords: 友人帐
 description: 
 comments: true
-photos: https://cdn.jsdelivr.net/gh/honjun/cdn@1.4/img/banner/links.jpg
+photos: https://cdn.jsdelivr.net/gh/Parti-cipant/cdn@2.1/Scene/title_%E6%B5%81%E6%98%9F78361237_p0.png
 links:
   - group: 个人项目
     desc: 因为是小白，所以没啥个人项目
