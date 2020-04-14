@@ -8,4 +8,4 @@ photos: https://cdn.jsdelivr.net/gh/Parti-cipant/cdn@2.1/Scene/title_City7989033
 ---
 
 ## sakura主题
-balabala
+本站使用的cdn为jsdelivr，并非github直接调用，所以应该能快那么一点点
