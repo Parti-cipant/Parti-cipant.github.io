@@ -113,7 +113,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">4</span>
+          <span class="site-state-item-count">5</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -135,6 +135,79 @@
     </div>
 
     <div class="main-inner index posts-expand">
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://parti-cipant.github.io/2024/08/13/240813Journal/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Lambert Liu">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Blog of Parti-">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | Blog of Parti-">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2024/08/13/240813Journal/" class="post-title-link" itemprop="url">240813Journal</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+      
+
+      <time title="Created: 2024-08-13 23:41:45 / Modified: 23:59:07" itemprop="dateCreated datePublished" datetime="2024-08-13T23:41:45+08:00">2024-08-13</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h1 id="Daily-Summary"><a href="#Daily-Summary" class="headerlink" title="Daily Summary"></a>Daily Summary</h1><h2 id="Using-Queue-in-multiprocessing"><a href="#Using-Queue-in-multiprocessing" class="headerlink" title="Using Queue in multiprocessing"></a>Using Queue in multiprocessing</h2><p>Instead of using multiprocessing.queue directly, Use manager to create a queue. </p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># from multiprocessing import Queue</span></span><br><span class="line"><span class="comment"># q = Queue()</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> multiprocessing <span class="keyword">import</span> Manager, Queue</span><br><span class="line">manager = Manager()</span><br><span class="line">q = manager.Queue()</span><br></pre></td></tr></table></figure>
+
+<h2 id="Use-Dataframe-to-read-and-write-csv-file"><a href="#Use-Dataframe-to-read-and-write-csv-file" class="headerlink" title="Use Dataframe to read and write .csv file"></a>Use Dataframe to read and write <code>.csv</code> file</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</span><br><span class="line"></span><br><span class="line">df = pd.read_csv(<span class="string">&#x27;data.csv&#x27;</span>)</span><br><span class="line"><span class="comment"># ...</span></span><br><span class="line"><span class="comment"># ...</span></span><br><span class="line"><span class="comment"># ...</span></span><br><span class="line">df.to_csv(<span class="string">&#x27;data_modified.csv&#x27;</span>)</span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
 
     
 
@@ -174,7 +247,7 @@
       <span class="post-meta-item-text">Posted on</span>
       
 
-      <time title="Created: 2024-08-07 19:56:18 / Modified: 22:22:54" itemprop="dateCreated datePublished" datetime="2024-08-07T19:56:18+08:00">2024-08-07</time>
+      <time title="Created: 2024-08-07 19:56:18 / Modified: 22:35:02" itemprop="dateCreated datePublished" datetime="2024-08-07T19:56:18+08:00">2024-08-07</time>
     </span>
 
   
@@ -187,7 +260,7 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h1 id="Daily-Summary"><a href="#Daily-Summary" class="headerlink" title="Daily Summary"></a>Daily Summary</h1><h2 id="Squash-multiple-commits-together-in-git"><a href="#Squash-multiple-commits-together-in-git" class="headerlink" title="Squash multiple commits together in git"></a>Squash multiple commits together in git</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git reset --soft HEAD~N</span><br><span class="line">git commit </span><br></pre></td></tr></table></figure>
+          <h1 id="Daily-Summary"><a href="#Daily-Summary" class="headerlink" title="Daily Summary"></a>Daily Summary</h1><h2 id="Squash-multiple-commits-together-in-git"><a href="#Squash-multiple-commits-together-in-git" class="headerlink" title="Squash multiple commits together in git"></a>Squash multiple commits together in git</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git reset --soft HEAD~N</span><br><span class="line">git commit </span><br></pre></td></tr></table></figure>
 
 <p><strong>N</strong> stands for the last <strong>N</strong> commits you want to squash together. </p>
 <h2 id="Ignore-warnings-in-python"><a href="#Ignore-warnings-in-python" class="headerlink" title="Ignore warnings in python"></a>Ignore warnings in python</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> warnings</span><br><span class="line">warnings.filterwarnings(<span class="string">&#x27;ignore&#x27;</span>)</span><br></pre></td></tr></table></figure>
