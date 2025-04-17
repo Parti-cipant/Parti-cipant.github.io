@@ -113,7 +113,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">12</span>
+          <span class="site-state-item-count">13</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -135,6 +135,83 @@
     </div>
 
     <div class="main-inner index posts-expand">
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://parti-cipant.github.io/2025/04/18/250418Journal/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Lambert Liu">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Blog of Parti-">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | Blog of Parti-">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2025/04/18/250418Journal/" class="post-title-link" itemprop="url">250418Journal</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+      
+
+      <time title="Created: 2025-04-18 00:41:19 / Modified: 00:48:26" itemprop="dateCreated datePublished" datetime="2025-04-18T00:41:19+08:00">2025-04-18</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h1 id="Daily-Summary"><a href="#Daily-Summary" class="headerlink" title="Daily Summary"></a>Daily Summary</h1><h2 id="How-to-use-a-third-party-proxy-service-for-OpenAI-in-LangChain"><a href="#How-to-use-a-third-party-proxy-service-for-OpenAI-in-LangChain" class="headerlink" title="How to use a third-party proxy service for OpenAI in LangChain"></a>How to use a third-party proxy service for OpenAI in LangChain</h2><p>When creating the ChatOpenAI, add the parameter  <code>openai_api_base</code> and  <code>openai_api_key</code>  like this:</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">llm = ChatOpenAI(</span><br><span class="line">    openai_api_base=<span class="string">&quot;base_url&quot;</span>,</span><br><span class="line">    openai_api_key=<span class="string">&quot;third-party-key&quot;</span>,</span><br><span class="line">)</span><br></pre></td></tr></table></figure>
+
+<p>When receiving an error like this:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ProxyError: 400 Bad Request</span><br></pre></td></tr></table></figure>
+
+<p>try the following code :</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">os.environ.pop(<span class="string">&quot;HTTP_PROXY&quot;</span>, <span class="literal">None</span>)</span><br><span class="line">os.environ.pop(<span class="string">&quot;HTTPS_PROXY&quot;</span>, <span class="literal">None</span>)</span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
 
     
 
@@ -833,84 +910,6 @@
 
 
 
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://parti-cipant.github.io/2024/08/06/240806Journal/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Lambert Liu">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Blog of Parti-">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | Blog of Parti-">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2024/08/06/240806Journal/" class="post-title-link" itemprop="url">240806Journal</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2024-08-06 23:09:08" itemprop="dateCreated datePublished" datetime="2024-08-06T23:09:08+08:00">2024-08-06</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2024-08-07 19:55:50" itemprop="dateModified" datetime="2024-08-07T19:55:50+08:00">2024-08-07</time>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h1 id="Daily-Summary"><a href="#Daily-Summary" class="headerlink" title="Daily Summary"></a>Daily Summary</h1><h2 id="Move-the-source-code-of-the-hexo-blog-to-my-own-laptop"><a href="#Move-the-source-code-of-the-hexo-blog-to-my-own-laptop" class="headerlink" title="Move the source code of the hexo blog to my own laptop"></a>Move the source code of the hexo blog to my own laptop</h2><p>As the blog is created on the company computer first, I need to copy the source code to my own laptop so that I can write something on my own computer. Therefore, after searching the Internet, I made a new branch and modifed the <code>.gitignore</code> . Then I cloned the branch to my laptop. After installing some required packages for hexo, it worked very well. I thought there would be some problems but luckily the transfering process was very smooth.</p>
-<h2 id="Hexo-failed-to-load-css-stylesheets"><a href="#Hexo-failed-to-load-css-stylesheets" class="headerlink" title="Hexo failed to load css stylesheets"></a>Hexo failed to load css stylesheets</h2><p>Today, after modifying the <code>_config.yml</code>, I suddenly found that the style for my blog disappeared but it remains on my local website. When I was surfing the Internet for a solution, I found that almost all the solutions were too old. After checking the code for introducing the stylesheet, I found that the path to the css file was wrong. Then after google it again, I changed the <code>#URL</code> part in <code>_config.yml</code>. Then the problem was solved.</p>
-<h2 id="Slicing-for-dataframe-structure"><a href="#Slicing-for-dataframe-structure" class="headerlink" title="Slicing for dataframe structure"></a>Slicing for dataframe structure</h2><p>The slicing and comparison for the dataframe cost mne a whole morning. Try not to use multiple brackets to locate or slice a dataframe. Instead, using .loc() and .at() is always a better choice. Try not to use brackets until the dataframe is reduced to 1-d.</p>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
   <nav class="pagination">
     <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" title="Next page" aria-label="Next page" href="/page/2/"><i class="fa fa-angle-right"></i></a>
   </nav>
@@ -923,7 +922,7 @@
 
   <div class="copyright">
     &copy; 
-    <span itemprop="copyrightYear">2024</span>
+    <span itemprop="copyrightYear">2025</span>
     <span class="with-love">
       <i class="fa fa-heart"></i>
     </span>
